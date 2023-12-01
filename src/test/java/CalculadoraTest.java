@@ -1,8 +1,8 @@
 import dominio.Calculadora;
 import org.junit.Assert;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.junit.jupiter.api.Assertions.*;
+// import static org.junit.Assert.*;
+// import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculadoraTest {
 

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a839ca-8d40-4c67-bdfb-07e99f8570a5" name="Changes" comment="Probando metodo suma">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e2a839ca-8d40-4c67-bdfb-07e99f8570a5" name="Changes" comment="Probando metodo suma y resta de enteros, negativos y decimales.">
       <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,12 +81,20 @@
       <option name="project" value="LOCAL" />
       <updated>1701449495301</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Probando metodo suma y resta de enteros, negativos y decimales.">
+      <created>1701450133401</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701450133401</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mm" />
     <MESSAGE value="Probando metodo suma" />
-    <option name="LAST_COMMIT_MESSAGE" value="Probando metodo suma" />
+    <MESSAGE value="Probando metodo suma y resta de enteros, negativos y decimales." />
+    <option name="LAST_COMMIT_MESSAGE" value="Probando metodo suma y resta de enteros, negativos y decimales." />
   </component>
 </project>
