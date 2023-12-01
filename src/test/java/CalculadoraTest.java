@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class CalculadoraTest {
 
     @Test
-    public void probarSuma() {
+    public void probarSumaEnteros() {
         // resultado esperado
 
         // configuracion
@@ -18,11 +18,31 @@ public class CalculadoraTest {
 
         // comprobacion
         Assert.assertEquals(10.0, calc.sumar(5,5),0.001);
-        Assert.assertEquals(21.5,calc.sumar(11.5,10), 0.001);
-        Assert.assertEquals(-10.0, calc.sumar(5,-15),0.001);
 
     }
 
+    @Test
+    public void probarSumaNegativos() {
+        // configuracion
+
+        // ejecucion
+        Calculadora calc = new Calculadora();
+        // comprobacion
+
+        Assert.assertEquals(-10.0, calc.sumar(5,-15),0.001);
+    }
+
+    @Test
+    public void ProbarSumaDecimales() {
+        // configuracion
+
+        // ejecucion
+        Calculadora calc = new Calculadora();
+        // comprobacion
+
+        Assert.assertEquals(-10.5, calc.sumar(5,-15.5),0.001);
+
+    }
     @Test
     public void probrarResta() {
 
