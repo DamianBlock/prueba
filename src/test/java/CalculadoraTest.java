@@ -11,7 +11,7 @@ public class CalculadoraTest {
         // resultado esperado
 
         // configuracion
-        double resultado = 10.0; // 5 + 5
+      //  double resultado = 10.0; // 5 + 5
 
         // ejecucion
         Calculadora calc = new Calculadora();
